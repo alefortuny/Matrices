@@ -18,11 +18,11 @@ public class Main {
         System.out.println("");
         
         int sumaDiagonal = Matrices.sumaDiagonal(matriz1);
-        System.out.println("La suma de la diagonal de la matriz2 es: " + sumaDiagonal);
+        System.out.println("La suma de la diagonal de la matriz es: " + sumaDiagonal);
         System.out.println("");
         
         int valorMaximo = Matrices.encontrarValorMaximo(matriz1);
-        System.out.println("El valor máximo de la matriz1 es: " + valorMaximo);
+        System.out.println("El valor máximo de la matriz es: " + valorMaximo);
         System.out.println("");
         
         int[][] matrizSuma = Matrices.sumarMatrices(matriz1, matriz2);
